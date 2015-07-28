@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D2134" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jIx-Q0-J8M">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="240"/>
+                    <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Twl-MM-vvY">
+                    <rect key="frame" x="0.0" y="240" width="480" height="240"/>
+                    <color key="backgroundColor" red="0.12549019607843137" green="0.14117647058823529" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="3dL-Hd-MnE">
+                    <rect key="frame" x="180" y="180" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="Uku-Ay-S6o"/>
+                        <constraint firstAttribute="height" constant="120" id="WmK-cp-g3A"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Twl-MM-vvY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="267-m0-TXV"/>
+                <constraint firstAttribute="trailing" secondItem="jIx-Q0-J8M" secondAttribute="trailing" id="5z1-yu-R93"/>
+                <constraint firstAttribute="bottom" secondItem="Twl-MM-vvY" secondAttribute="bottom" id="9OT-Yd-uhS"/>
+                <constraint firstItem="jIx-Q0-J8M" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="E1k-rg-Cbt"/>
+                <constraint firstItem="jIx-Q0-J8M" firstAttribute="height" secondItem="Twl-MM-vvY" secondAttribute="height" id="FTx-Bm-sbQ"/>
+                <constraint firstAttribute="centerX" secondItem="3dL-Hd-MnE" secondAttribute="centerX" id="H5B-Re-3yM"/>
+                <constraint firstItem="jIx-Q0-J8M" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hSq-r8-2mt"/>
+                <constraint firstItem="Twl-MM-vvY" firstAttribute="top" secondItem="jIx-Q0-J8M" secondAttribute="bottom" id="oLs-hF-7uh"/>
+                <constraint firstAttribute="centerY" secondItem="3dL-Hd-MnE" secondAttribute="centerY" id="sn1-xA-ZxK"/>
+                <constraint firstAttribute="trailing" secondItem="Twl-MM-vvY" secondAttribute="trailing" id="swb-Tn-oES"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
+</document>
